@@ -1,0 +1,144 @@
+.left-bar{
+	width: 100%;
+	height: auto;
+	background-color: none;
+	margin-left: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.col1{
+	height: 45px;
+	width: 180px;
+	background-color: none;
+	width: auto;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	border-radius: 35px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.col2{
+	height: 45px;
+	background-color: none;
+	width: 190px;
+	margin-bottom: 30px;
+	border-radius: 35px;
+	overflow: hidden;
+
+}
+.col3{
+	height: 45px;
+	background-color: none;
+	width: 210px;
+	margin-bottom: 30px;
+	border-radius: 35px;
+	overflow: hidden;
+
+}
+.col4{
+	height: 45px;
+	background-color: none;
+	width: 170px;
+	margin-bottom: 30px;
+	border-radius: 35px;
+	overflow: hidden;
+
+}
+.col5{
+	margin-left: 0px;
+	height: 40px;
+	background-color: #3ca6e4;
+	width: 180px;
+	border-radius: 35px;
+	text-align-left: 90px;
+	text-align-bottom:20px; 
+	overflow: hidden;
+
+}
+.logout-button a{
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+
+.col1:hover{
+	cursor: pointer;
+	width: 185px;
+	background-color: #1bf1bf;
+}
+.col1 a{
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+
+.col2:hover{
+	cursor: pointer;
+	width: 195px;
+	background-color: #1bf1bf;
+}
+.col3:hover{
+	cursor: pointer;
+	width: 215px;
+	background-color: #1bf1bf;
+}
+.col4:hover{
+	cursor: pointer;
+	width: 175px;
+	background-color: #1bf1bf;
+}
+
+.col4 a{
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+.col2 a{
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+
+.col5:hover{
+	cursor: pointer;
+	width: 185px;
+	background-color: #1bf1bf;
+}
+
+.icon1{
+	height: 40px;
+	width: 40px;
+	border-radius: 34px;
+	margin-left:  5px;
+	float: left;
+
+}
+.icon1 img{
+	height: 39px;
+	width: 39px;
+	border-radius: 34px;
+	float: left;
+	margin-top: 4px
+
+}
+
+.icon1-button{
+	margin-left: 55px;
+    font-size: 1.4em;
+    font-weight: 650;
+    /* margin-top: 40px; */
+    line-height: 48px;
+
+}
+.logout-button{
+	margin-left: 55px;
+	font-size: 1.4em;
+	font-weight: 650;
+	/*margin-top: 40px;*/
+	line-height: 35px;
+
+}

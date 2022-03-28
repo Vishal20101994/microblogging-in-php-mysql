@@ -1,0 +1,149 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+	width:100vw;
+	height:100vh;
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-gap:7rem;
+	padding:0 2rem;
+}
+.img{
+	display:flex;
+	justify-content:flex-end;
+	align-items:left;
+	margin:5px  auto auto -50px;
+	
+	padding-left: 0px;
+
+}
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+
+
+.img img{
+	width:500px;
+	height: 550px;
+}
+
+
+.login-container{
+	display:flex;
+	align-items:center;
+	text-align:center;
+}
+
+
+
+
+
+
+.form{
+	width:410px;
+}
+.form a{
+	text-decoration: none;
+}
+
+
+.form h2{
+	font-size:1.7rem;
+	font-family: times;
+	margin:10px 0;
+	color:#333;
+}
+.form h4{
+	font-size:1rem;
+	font-family: times;
+	margin-top: 10px;
+	margin-left: 0px;
+	text-align: left;
+	color:#333;
+}
+
+.btn{
+	display:block;
+	width:100%;
+	height:30px;
+	border-radius:25px;
+	margin:1.3rem 0;
+	font-size:1.2rem;
+	outline:none;
+	border-color: #00cc7a;
+	background-image:linear-gradient(to right,#32be8f,#38d39f,#32be8f);
+	cursor:pointer;
+	text-transform:capitalize;
+	color:#fff;
+	font-family:'poppins',sans-serif;
+	background-size:200%;
+	transition:.5s;
+}
+.btn2{
+	display:block;
+	width:100%;
+	height:30px;
+	border-radius:25px;
+	margin:1.3rem 0;
+	font-size:1.2rem;
+	outline:none;
+	border-color: #00cc7a;
+	background-image:linear-gradient(to right,#fff,#fff,#fff);
+	cursor:pointer;
+	text-transform:capitalize;
+	color:#00cc7a;
+	font-family:'poppins',sans-serif;
+	background-size:200%;
+	transition:.5s;
+}
+.btn:hover{
+	color:#38d39f;
+	background-position: right;
+}
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background-color: #fff;
+   color: black	;
+   text-align: center;
+
+}
+.footer a{
+	
+	margin-left: 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+}
+	
+
+ .a1{
+ 	text-decoration: none;
+ 	color: #00cc7a;
+ }	
+
+
+
+/*@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }*/

@@ -1,0 +1,149 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+ /* padding-top: 100px;  Location of the box */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: #999999;
+  opacity: 1;
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #f1f1f1;
+  border: 0px solid #f1f1f1;
+  width: 610px;
+  height: 310px;
+  margin: 100px 300px auto;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+.comment-modal-content{
+  width: 590px;
+  height: auto;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+
+}
+
+
+
+.comment-user-icon{
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: white;
+  border-radius: 30px;
+  border:  0px solid black;
+
+}
+.comment-user-icon img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 35px;
+    border-color: 1px solid #e4d9d9;
+ 
+
+}
+.comment-box-user-name{
+  width: 590px;
+  height: 65px;
+  background-color: white;
+}
+
+.comment-box-user-name p{
+ font-size: 1.0em;
+  margin-left: 10px;
+  margin-top: 14px;
+  font-weight: 800;
+  color: #6a6d6d;
+  float: left;
+
+}
+.comment-box-user-name  p.post-user-name{
+  font-size: 1.0em;
+  margin-left: 10px;
+  margin-top: 18px;
+  font-weight: 800;
+  color: #313133;
+  float: left;
+}
+.comment-box-user-name  p.post-small-name{
+  font-size: 0.9em;
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 20px;]
+  color: white;
+  float: left;
+}
+.comment-box-area{
+  width: 590px;
+  height: auto;
+  background-color: white;
+  margin-top:  5px;
+}
+
+.textinput{
+  width: 500px;
+  height: 30px;
+  margin-left: 12px;
+  margin-top: 14px;
+  border: none;
+  background-color: white;
+
+}
+.small_post-button{
+  float: right;
+  height: 40px;
+  width: 88px;
+  background-color: #34bbc1;
+  text-align: center;
+  border-radius: 24px;
+  margin-top: 68px;
+  border:0px solid white;
+  margin-bottom: 5px;
+}
+.small_post-button:hover{
+  background-color: #C2EDFF;
+}
+
+.small_post-button[value]{
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration-style: bold;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  height:40px;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid #6f7173;
+
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.right-content-area{
+	height: auto;
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+}
+.right-content-inner-area{
+	width: 100%;
+	height: auto;
+	background-color: #e4eaef;
+	border-radius: 9px;
+
+}
+.right-content-inner-area p{
+	text-align: left;
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-top: 6px;
+	margin-left: 13px;
+	text-align: center;
+
+}
+.right-bar-area{
+	width: 100%;
+	height: auto;
+	background-color: white;
+
+	margin-top: 5px;
+
+}
+.user_list{
+	width: 100%;
+	height: auto;
+	background-color: #e4eaef;
+	border-radius: 10px;
+	margin-bottom: 6px;
+
+}
+
+
+.follower-box-user-icon{
+	height: 60px;
+	width: 60px;
+	float: left;
+	background-color: white;
+	border-radius: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.follower-box-user-icon img{
+	width: 60PX;
+	height: 60PX;
+	overflow: hidden;
+	border-radius: 35px;
+	border:2px solid white;
+}
+
+
+
+.follower-box-user-name p{
+	padding: 0px;
+	margin: -2px;
+}
+
+
+.follower-box-user-name p.users-text-name{
+	font-size: 1.0em;
+	margin-top: 23px;
+	margin-left: -64px;
+	font-weight: 800;
+	color: black;
+}
+
+
+.follower-box-user-name p.users-name{
+	font-size: 0.8em;
+	font-weight: 200;
+	margin-left: -64px;
+	color: black;
+}
+
+.follower-box-user-name p.users-text-name a{
+	text-decoration: none;
+}
+.follow_btn{
+	background-color: #5d79ca;
+	float: left;
+
+}

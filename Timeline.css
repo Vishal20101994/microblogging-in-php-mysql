@@ -1,0 +1,128 @@
+.timeline-box-content{
+	border-bottom:  10px solid #deecec;
+
+
+
+}
+.timeline-box{
+	height: 325px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: #fafafa;
+	margin-right: 1px;
+
+}
+.timeline-box-banner{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 60%;
+	z-index: 1;
+}
+.timeline-box-banner img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+}
+ 
+.timeline-box-user-info-wrapper{
+	height: 60%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	top: 45%;
+	z-index: 1000!important;
+}
+
+.timeline-box-toolbar{
+	height: 50%;
+	display: block;
+	width: auto;
+	padding: 0px 10px 0px 10px;
+	margin-top: 10px
+}
+.timeline-box-user-icon-wrapper{
+	height: 50%;
+	display: block;
+	width: auto;
+	overflow: hidden;
+	
+}
+
+.timeline-box-user-icon{
+	height: 90px;
+	width: 90px;
+	float: left;
+	background-color: white;
+	border-radius: 45px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.timeline-box-user-icon img{
+	width: 90PX;
+	height: 90PX;
+	overflow: hidden;
+	border-radius: 45px;
+	border:2px solid white;
+}
+
+
+
+.timeline-box-user-name p{
+	padding: 0px;
+	margin: -3px;
+}
+
+.timeline-box-user-name p.user-text-name{
+	font-size: 1.0em;
+	margin-top: 50px;
+	margin-left: -200px;
+	font-weight: 800;
+	color: black;
+}
+
+
+.timeline-box-user-name p.user-name{
+	font-size: 0.8em;
+	font-weight: 600;
+	margin-left: -200px;
+	color: black;
+}
+
+.timeline-box-user-name p.user-text-name a{
+	text-decoration: none;
+}
+
+
+
+.timeline-toolbar-title{
+	font-size: 0.9em;
+	display: block;
+	margin-top: 12px;
+	margin-left: 50px;
+	margin-bottom:  0 ;
+	margin-right:  -3px;
+	color: #323642;
+	font-weight: 700;
+}
+
+.timeline-toolbar-count{
+	font-size: 1.0em;
+	display: block;
+	margin-top: 2px;
+	margin-left:  55px;
+	margin-bottom:  0;
+	margin-right:  8px;
+	color: #2598FF;
+	font-weight: 600;
+}
+
+

@@ -1,0 +1,99 @@
+
+.post-box-content{
+	height: 200px;
+	background-color: white;
+	width: 100%;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	border-top:  1px solid white;
+	border-bottom:  10px solid #deecec;
+
+}
+
+.postbox_post_area{
+	height: 73%;
+	width: 100%;
+	background:none;
+	border: 1px solid white;
+	border-radius: 5px;
+	position: relative;
+	margin-top: 0px;
+
+}
+.postbox_post_title_area{
+	width: 100%;
+	height: auto;
+	background:none;
+	border-bottom: 1px ridge #e4d9d9;
+	font-weight: 800;
+	font-size: 22px;
+}
+
+.postbox-user-icon-col{
+	float: left;
+	width: 16%;
+	margin-top: 11px;
+	overflow: hidden;
+	height: 100%;
+}
+.postbox-user-icon{
+	float: right;
+	width: 60px;
+	height: 60PX;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	background: white;
+	border-radius:  30px;
+	background: white;
+	border-radius:  30px;
+}
+.postbox-user-icon img{
+	width: 60PX;
+    height: 60PX;
+    overflow: hidden;
+    border-radius: 35px;
+    border: 0px solid #e4d9d9;
+}
+
+.postbox-message-content{
+	float: right;
+	width: 82%;
+	height: 85%;
+	margin-top: 12px;
+	overflow: hidden;
+}
+
+.postbox-message-input-area{
+	height: 55%;
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+}
+
+/*.postbox-toolbar-area{
+	height: 27%;
+	display: block;
+	width: 100%;
+	margin-top: 0px;
+}*/
+
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #98D8FF;
+	margin: 0px auto 0 auto;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.circle p{
+	margin: 0px;
+	font-size: 2.5em;
+	text-align: center;
+	color: #98D8FF;
+	line-height: 30px;
+}
+
